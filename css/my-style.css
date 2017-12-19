@@ -1,0 +1,11 @@
+body,ul,li,div{margin: 0;padding: 0;}
+ul{list-style: none;}
+
+.row{margin: auto;}
+.slide-wrap1{width: 600px;}
+.slide-wrap2{width: 450px;}
+
+@media screen and (max-width:600px) {
+    .slide-wrap1{width: 100%;}
+    .slide-wrap2{width: 100%;}
+}
